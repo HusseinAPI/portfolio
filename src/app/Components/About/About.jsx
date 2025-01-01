@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <div id="about" className="ml-24 text-gray-50">
+    <div id="about" className="ml-10 md:ml-24 text-gray-50">
       <div className="text-4xl text-yellow-400 my-8">About Me</div>
       <div className="w-4/5 text-xl">
         Hello! I’m Hussein Kassab, a passionate and dedicated full-stack

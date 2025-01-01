@@ -8,7 +8,10 @@ const Projects = () => {
 
   return (
     <div className="w-full mt-32">
-      <div className="text-4xl text-yellow-400 ml-24 my-8" id="projects">
+      <div
+        className="text-4xl text-yellow-400 ml-10 md:ml-24 my-8"
+        id="projects"
+      >
         Projects
       </div>
       <div className="p-8 min-h-screen flex flex-col gap-8">

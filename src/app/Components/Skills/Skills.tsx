@@ -31,7 +31,9 @@ const Skills = () => {
 
   return (
     <>
-      <div className="w-full text-4xl text-yellow-400 ml-24 my-8">Skills</div>
+      <div className="w-full text-4xl text-yellow-400 ml-10 md:ml-24 my-8">
+        Skills
+      </div>
       <div
         className="container mx-auto px-4 py-8 grid grid-cols-1 md:grid-cols-2 gap-8"
         id="skills"

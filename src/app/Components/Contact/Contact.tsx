@@ -42,6 +42,11 @@ const Contact = () => {
               </a>
             </li>
             <li>
+              <a href="\#experience" className="hover:text-gray-300">
+                Experience
+              </a>
+            </li>
+            <li>
               <a href="\#projects" className="hover:text-gray-300">
                 Projects
               </a>
@@ -53,7 +58,7 @@ const Contact = () => {
           <h2 className="font-bold text-lg mb-4">Have a Question?</h2>
           <ul className="space-y-2 text-sm">
             <li>
-              <span className="block">Zrerieh, South-Lebanon</span>
+              <span className="block">Lebanon</span>
             </li>
             <li>
               <span className="block">+961 70884903</span>
