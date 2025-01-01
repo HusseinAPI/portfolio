@@ -8,7 +8,7 @@ const Projects = () => {
 
   return (
     <div className="w-full mt-32">
-      <div className="text-4xl text-yellow-300 ml-24 my-8" id="projects">
+      <div className="text-4xl text-yellow-400 ml-24 my-8" id="projects">
         Projects
       </div>
       <div className="p-8 min-h-screen flex flex-col gap-8">
@@ -17,7 +17,7 @@ const Projects = () => {
             <Link href={`/projects/${elem.name}`} key={index}>
               <div
                 key={index}
-                className="bg-red-600 text-white rounded-lg p-6 shadow-md flex flex-col cursor-pointer hover:bg-red-700 transition-colors duration-300"
+                className="bg-red-500 text-white rounded-lg p-6 shadow-md flex flex-col cursor-pointer hover:bg-red-700 transition-colors duration-300"
               >
                 <div className="relative">
                   <Image
@@ -34,7 +34,7 @@ const Projects = () => {
                   {elem.skills.map((skill, index) => (
                     <span
                       key={index}
-                      className="bg-yellow-500 text-white text-xs px-2 py-1 rounded-md"
+                      className="bg-yellow-400 text-white text-xs px-2 py-1 rounded-md"
                     >
                       {skill}
                     </span>

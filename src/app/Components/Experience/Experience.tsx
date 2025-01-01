@@ -1,7 +1,7 @@
 const Experience = () => {
   return (
     <div id="experience" className="mt-10 ml-24 text-gray-50">
-      <div className="text-4xl text-yellow-300 my-8">Experience</div>
+      <div className="text-4xl text-yellow-400 my-8">Experience</div>
       <div className="w-4/5 text-xl">
         Although I am at the beginning of my professional journey as a
         Full-Stack Developer, I have acquired comprehensive skills and knowledge

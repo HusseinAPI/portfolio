@@ -31,7 +31,7 @@ const Skills = () => {
 
   return (
     <>
-      <div className="w-full text-4xl text-yellow-300 ml-24 my-8">Skills</div>
+      <div className="w-full text-4xl text-yellow-400 ml-24 my-8">Skills</div>
       <div
         className="container mx-auto px-4 py-8 grid grid-cols-1 md:grid-cols-2 gap-8"
         id="skills"
@@ -44,7 +44,7 @@ const Skills = () => {
             </div>
             <div className="w-full bg-teal-900 rounded-full h-4">
               <div
-                className="bg-yellow-300 h-4 rounded-full"
+                className="bg-yellow-400 h-4 rounded-full"
                 style={{ width: '90%' }}
               ></div>
             </div>

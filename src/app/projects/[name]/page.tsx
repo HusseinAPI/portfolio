@@ -37,7 +37,7 @@ const ProjectDetails = () => {
               key={index}
               src={image}
               alt={project.name}
-              className="w-1/3 rounded-md m-2"
+              className="w-4/6 lg:w-1/3 rounded-md m-2"
               width={400}
               height={300}
             />

@@ -11,7 +11,7 @@ export default function Home() {
       <div className="w-1/2 mt-40 lg:mt-64 text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-semibold">
         <p className="ml-24 text-gray-50">
           Hi, i’m <br />
-          <span className="text-yellow-300">Hussein Kassab</span>
+          <span className="text-yellow-400">Hussein Kassab</span>
           <br />
           <span className="">And I am a</span>
           <span className="text-blue-500">
@@ -40,7 +40,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="w-1/2 mt-56 sm:mt-20 md:mt-40 lg:mt-48 xl:mt-14">
+      <div className="w-1/2 mt-64 sm:mt-20 md:mt-40 lg:mt-48 xl:mt-14">
         <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
           <defs>
             <clipPath id="circleClip">

@@ -9,7 +9,7 @@ const NavBar = () => {
 
   return (
     <div className="fixed z-10 h-16 bg-gradient-to-r from-indigo-950 to-violet-950 flex justify-between w-full border-b border-b-gray-500 text-gray-50">
-      <div className="text-3xl text-yellow-300 mt-4 mx-4 sm:mx-24 overflow-hidden whitespace-nowrap text-ellipsis">
+      <div className="text-3xl text-yellow-400 mt-4 mx-4 sm:mx-24 overflow-hidden whitespace-nowrap text-ellipsis">
         Hussein Kassab
       </div>
 
@@ -32,7 +32,7 @@ const NavBar = () => {
         <a
           href="/Hussein_Kassab_CV.pdf"
           download="Hussein_Kassab_CV.pdf"
-          className="hover:bg-yellow-400 bg-yellow-300 text-teal-900 h-10 rounded-xl px-3 py-1 flex items-center justify-center cursor-pointer"
+          className="hover:bg-yellow-500 bg-yellow-400 text-teal-900 h-10 rounded-xl px-3 py-1 flex items-center justify-center cursor-pointer"
         >
           Download CV
         </a>
@@ -77,7 +77,7 @@ const NavBar = () => {
           <a
             href="/Hussein_Kassab_CV.pdf"
             download="Hussein_Kassab_CV.pdf"
-            className="hover:bg-yellow-400 bg-yellow-300 text-teal-900 h-10 rounded-xl px-3 py-1 flex items-center justify-center cursor-pointer"
+            className="hover:bg-yellow-500 bg-yellow-400 text-teal-900 h-10 rounded-xl px-3 py-1 flex items-center justify-center cursor-pointer"
             onClick={toggleMenu}
           >
             Download CV
