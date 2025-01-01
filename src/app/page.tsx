@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className="flex justify-between  content-between flex-wrap" id="Top">
       <div className="w-1/2 mt-40 lg:mt-64 text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-semibold">
-        <p className="ml-24 text-gray-50">
+        <p className="ml-10 md:ml-24 text-gray-50">
           Hi, i’m <br />
           <span className="text-yellow-400">Hussein Kassab</span>
           <br />
