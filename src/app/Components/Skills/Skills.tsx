@@ -47,7 +47,7 @@ const Skills = () => {
             <div className="w-full bg-teal-900 rounded-full h-4">
               <div
                 className="bg-yellow-400 h-4 rounded-full"
-                style={{ width: '90%' }}
+                style={{ width: `${elem.percentage}%` }}
               ></div>
             </div>
           </div>

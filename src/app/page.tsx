@@ -19,7 +19,7 @@ export default function Home() {
             Full Stack Developer
           </span>
         </p>
-        <div className="w-fit text-white ml-24 mt-3">
+        <div className="w-fit text-white ml-10 md:ml-24 mt-3">
           <div className="flex justify-center space-x-6">
             <a
               href="https://github.com/HusseinAPI"
@@ -34,7 +34,6 @@ export default function Home() {
               target="_blank"
               className="hover:scale-110 transition-transform duration-300"
             >
-              {' '}
               <FaLinkedin className="size-7" />
             </a>
           </div>
