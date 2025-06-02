@@ -87,8 +87,28 @@ const projects: Project[] = [
       'MongoDB',
     ],
     description:
-      'eveloped a platform to support Lebanese women in acquiring skills in Mouneh production and handcrafts, enabling them to sell their products online. Utilized MERN stack, Socket.IO, and additional Node.js technologies, including a chatbot, at ESA Coding Lab. Contributed to both front-end and back-end development of pages for products, product details, cart, and chat groups to facilitate online sales and communication. ',
+      'developed a platform to support Lebanese women in acquiring skills in Mouneh production and handcrafts, enabling them to sell their products online. Utilized MERN stack, Socket.IO, and additional Node.js technologies, including a chatbot, at ESA Coding Lab. Contributed to both front-end and back-end development of pages for products, product details, cart, and chat groups to facilitate online sales and communication. ',
     github: 'https://github.com/joumaamhamad/betelmoune',
+  },
+  {
+    imgSource: [
+      '/doctorApp1.png',
+      '/doctorApp2.png',
+      '/doctorApp3.png',
+      '/doctorApp4.png',
+    ],
+    name: 'doctor-appointment-booking',
+    year: 2025,
+    skills: [
+      'Nextjs',
+      'Redux Toolkit',
+      'Tailwind CSS',
+      'Expressjs',
+      'PostgreSQL',
+    ],
+    description:
+      'developed a platform to support Lebanese women in acquiring skills in Mouneh production and handcrafts, enabling them to sell their products online. Utilized MERN stack, Socket.IO, and additional Node.js technologies, including a chatbot, at ESA Coding Lab. Contributed to both front-end and back-end development of pages for products, product details, cart, and chat groups to facilitate online sales and communication. ',
+    github: 'https://github.com/HusseinAPI/doctor-appointment-booking.git',
   },
 ];
 
