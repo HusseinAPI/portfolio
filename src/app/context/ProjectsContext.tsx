@@ -107,7 +107,7 @@ const projects: Project[] = [
       'PostgreSQL',
     ],
     description:
-      'developed a platform to support Lebanese women in acquiring skills in Mouneh production and handcrafts, enabling them to sell their products online. Utilized MERN stack, Socket.IO, and additional Node.js technologies, including a chatbot, at ESA Coding Lab. Contributed to both front-end and back-end development of pages for products, product details, cart, and chat groups to facilitate online sales and communication. ',
+      'Developed a full-stack web application for a healthcare center that enables patients to register, log in securely using JWT, browse doctor profiles, and book appointments online. Includes a protected admin dashboard for managing doctors and appointments. Utilized Sequelize ORM for database management and PostgreSQL for structured data storage. Focused on building a responsive, secure, and user-friendly system using modern web technologies.',
     github: 'https://github.com/HusseinAPI/doctor-appointment-booking.git',
   },
 ];
