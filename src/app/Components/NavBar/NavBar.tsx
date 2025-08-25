@@ -28,7 +28,7 @@ const NavBar = () => {
         </Link>
       </div>
 
-      <div className="ml-28 sm:ml-56 md:ml-64 flex w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/5 justify-between text-sm sm:text-xl mt-3 mr-5">
+      <div className="hidden lg:flex w-1/5 justify-between text-xl mt-3 mr-5">
         <a
           href="/Hussein_Kassab_CV.pdf"
           download="Hussein_Kassab_CV.pdf"
