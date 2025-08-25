@@ -28,7 +28,7 @@ const NavBar = () => {
         </Link>
       </div>
 
-      <div className="hidden lg:flex w-1/5 justify-between text-xl mt-3 mr-5">
+      <div className="ml-28 sm:ml-56 md:ml-64 flex w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/5 justify-between text-sm sm:text-xl mt-3 mr-5">
         <a
           href="/Hussein_Kassab_CV.pdf"
           download="Hussein_Kassab_CV.pdf"
@@ -74,14 +74,6 @@ const NavBar = () => {
           >
             Projects
           </Link>
-          <a
-            href="/Hussein_Kassab_CV.pdf"
-            download="Hussein_Kassab_CV.pdf"
-            className="hover:bg-yellow-500 bg-yellow-400 text-teal-900 h-10 rounded-xl px-3 py-1 flex items-center justify-center cursor-pointer"
-            onClick={toggleMenu}
-          >
-            Download CV
-          </a>
         </div>
       )}
     </div>

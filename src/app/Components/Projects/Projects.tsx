@@ -23,13 +23,31 @@ const Projects = () => {
                 className="bg-red-500 text-white rounded-lg p-6 shadow-md flex flex-col cursor-pointer hover:bg-red-700 transition-colors duration-300"
               >
                 <div className="relative">
-                  <Image
-                    src={elem.imgSource[0]}
-                    alt="Swesco Maskot"
-                    className="rounded-md mb-4"
-                    width={500}
-                    height={200}
-                  />
+                  {elem.name.includes('Mobile') ? (
+                    <div className="flex gap-2 flex-wrap">
+                      {elem.imgSource.map((img, index) => {
+                        if (index < 2)
+                          return (
+                            <Image
+                              key={index}
+                              src={img}
+                              alt={`Swesco Maskot ${index}`}
+                              className="rounded-md mb-4 ml-10 sm:ml-14 md:ml-0 xl:ml-14 w-20"
+                              width={200}
+                              height={200}
+                            />
+                          );
+                      })}
+                    </div>
+                  ) : (
+                    <Image
+                      src={elem.imgSource[0]}
+                      alt="Swesco Maskot"
+                      className="rounded-md mb-4"
+                      width={500}
+                      height={200}
+                    />
+                  )}
                 </div>
                 <h2 className="text-lg font-bold">{elem.name}</h2>
                 <p className="text-sm text-red-200 mt-2">{elem.year}</p>

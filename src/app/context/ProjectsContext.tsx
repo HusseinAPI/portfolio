@@ -42,7 +42,7 @@ const projects: Project[] = [
     imgSource: ['/to-do-list.png'],
     name: 'To-Do-List',
     year: 2023,
-    skills: ['Reactjs', 'Redux Toolkit', 'Expressjs', 'MongoDB'],
+    skills: ['Reactjs', 'Redux Toolkit', 'Nodejs', 'Expressjs', 'MongoDB'],
     description:
       'Application with React.js, Redux Toolkit, Node.js, Express.js, and MongoDB, allowing the ability to add, delete and save tasks.',
     github: '',
@@ -51,7 +51,7 @@ const projects: Project[] = [
     imgSource: ['/chat-app.png'],
     name: 'Chat-App',
     year: 2023,
-    skills: ['Reactjs', 'Redux Toolkit', 'Expressjs', 'MongoDB'],
+    skills: ['Reactjs', 'Redux Toolkit', 'Nodejs', 'Expressjs', 'MongoDB'],
     description:
       'Dynamic chat web app using the MERN stack and powered by Redux Toolkit! It provides seamless real-time communication with an elegant user interface. From secure user authentication to responsive design, every aspect has been meticulously crafted',
     github: 'https://github.com/HusseinAPI/chat-app.git',
@@ -65,7 +65,7 @@ const projects: Project[] = [
     ],
     name: 'E-Commerce',
     year: 2024,
-    skills: ['Reactjs', 'Redux Toolkit', 'Expressjs', 'MongoDB'],
+    skills: ['Reactjs', 'Redux Toolkit', 'Nodejs', 'Expressjs', 'MongoDB'],
     description:
       'I developed an e-commerce platform using the MERN stack, focusing on product management, shopping cart functionality, user registration, and state management with Redux Toolkit. The front-end was implemented to allow users to browse and view product details, as well as add them to the shopping cart. I also built a user registration feature, enabling users to create accounts and log in. Additionally, the shopping cart functionality allows users to add products to their cart.',
     github: 'https://github.com/HusseinAPI/e-commerce.git',
@@ -83,6 +83,7 @@ const projects: Project[] = [
       'Reactjs',
       'Redux Toolkit',
       'Tailwind CSS',
+      'Nodejs',
       'Expressjs',
       'MongoDB',
     ],
@@ -103,12 +104,27 @@ const projects: Project[] = [
       'Nextjs',
       'Redux Toolkit',
       'Tailwind CSS',
+      'Nodejs',
       'Expressjs',
       'PostgreSQL',
     ],
     description:
       'Developed a full-stack web application for a healthcare center that enables patients to register, log in securely using JWT, browse doctor profiles, and book appointments online. Includes a protected admin dashboard for managing doctors and appointments. Utilized Sequelize ORM for database management and PostgreSQL for structured data storage. Focused on building a responsive, secure, and user-friendly system using modern web technologies.',
     github: 'https://github.com/HusseinAPI/doctor-appointment-booking.git',
+  },
+  {
+    imgSource: [
+      '/ecom-mobile1.jpg',
+      '/ecom-mobile2.jpg',
+      '/ecom-mobile3.jpg',
+      '/ecom-mobile4.jpg',
+    ],
+    name: 'E-commerce-Mobile-App',
+    year: 2025,
+    skills: ['React Native', 'Redux Toolkit', 'Nodejs', 'Expressjs', 'MongoDB'],
+    description:
+      'transformed a previously developed MERN e-commerce web application into a mobile app using React Native CLI. The backend, built with Express and connected to MongoDB. On the mobile side, I implemented product browsing, detailed product views, shopping cart functionality, and secure user registration/login. Additionally, I integrated an order system where users can place orders and track them via WhatsApp integration. Redux Toolkit was used for efficient state management, ensuring a seamless and responsive mobile user experience. (Source code available on my GitHub)',
+    github: 'https://github.com/HusseinAPI/e-commerce-mobile.git',
   },
 ];
 
