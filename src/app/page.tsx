@@ -36,11 +36,11 @@ export default function Home() {
             >
               <FaLinkedin className="size-7" />
             </a>
-            <div className="flex w-44 justify-between text-xl">
+            <div className="w-44 text-xl">
               <a
                 href="/Hussein_Kassab_CV.pdf"
                 download="Hussein_Kassab_CV.pdf"
-                className="hover:bg-yellow-500 bg-yellow-400 text-teal-900 h-8 rounded-xl px-3 py-1 flex items-center justify-center cursor-pointer"
+                className="hover:bg-yellow-500 bg-yellow-400 text-teal-900 h-8 relative z-50 rounded-xl px-3 py-1 flex items-center justify-center cursor-pointer w-full"
               >
                 Download CV
               </a>
