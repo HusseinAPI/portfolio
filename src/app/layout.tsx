@@ -29,7 +29,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gradient-to-r from-indigo-950 to-violet-950 font-mono`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[#080D1C] text-white`}
       >
         <ProjectsProvider>
           <NavBar />
