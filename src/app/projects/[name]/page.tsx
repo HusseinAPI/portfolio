@@ -49,7 +49,7 @@ const ProjectDetails = () => {
           <h1 className="mt-5 text-2xl font-bold">Project not found</h1>
 
           <p className="mt-2 text-sm text-gray-500">
-            The project you're looking for doesn't exist.
+            The project you are looking for does not exist.
           </p>
 
           <Link
