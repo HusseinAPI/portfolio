@@ -41,7 +41,213 @@ const Experience = () => {
         <div className="relative">
           <div className="absolute left-5 top-0 hidden h-full w-px bg-gradient-to-b from-yellow-400/50 via-white/10 to-transparent md:block" />
 
+          {/* Backend Developer Internship - Elevvo */}
           <div className="relative md:pl-16">
+            <div className="absolute left-0 top-1 hidden h-10 w-10 items-center justify-center rounded-full border border-white/10 bg-[#080D1C] text-yellow-400 md:flex">
+              <FiCode size={18} />
+            </div>
+
+            <div className="rounded-3xl border border-white/10 bg-white/[0.03] p-7 backdrop-blur-md transition duration-300 hover:border-yellow-400/20 sm:p-9">
+              <div className="flex flex-col gap-6 lg:flex-row lg:items-start lg:justify-between">
+                <div>
+                  <div className="mb-3 flex flex-wrap items-center gap-3">
+                    <span className="rounded-full border border-yellow-400/20 bg-yellow-400/10 px-3 py-1 text-xs font-medium text-yellow-400">
+                      Internship
+                    </span>
+
+                    <span className="rounded-full border border-emerald-400/20 bg-emerald-400/10 px-3 py-1 text-xs font-medium text-emerald-400">
+                      Remote
+                    </span>
+                  </div>
+
+                  <h3 className="text-2xl font-bold text-white sm:text-3xl">
+                    Backend Developer Intern
+                  </h3>
+
+                  <p className="mt-2 text-lg font-medium text-yellow-400">
+                    Elevvo
+                  </p>
+                </div>
+
+                <div className="flex flex-col gap-2 text-sm text-gray-400 lg:items-end">
+                  <div className="flex items-center gap-2">
+                    <FiCalendar className="text-yellow-400" />
+                    September 2026 — October 2026
+                  </div>
+
+                  <div className="flex items-center gap-2">
+                    <FiMapPin className="text-yellow-400" />
+                    Remote
+                  </div>
+                </div>
+              </div>
+
+              <div className="mt-8 border-t border-white/10 pt-8">
+                <p className="max-w-4xl text-[15px] leading-7 text-gray-400 sm:text-base">
+                  Completed a backend development internship at Elevvo, focusing
+                  on building scalable, secure, and fault-tolerant server-side
+                  applications. Worked with native Node.js HTTP servers,
+                  asynchronous TypeScript data processing, modular Express.js
+                  architecture, JWT authentication, and relational database
+                  management using PostgreSQL and Prisma ORM.
+                </p>
+
+                {/* Technical Tasks */}
+                <div className="mt-8 grid gap-4 sm:grid-cols-2">
+                  <div className="rounded-2xl border border-white/10 bg-black/10 p-5">
+                    <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-xl bg-yellow-400/10 text-yellow-400">
+                      <FiCode size={19} />
+                    </div>
+
+                    <h4 className="font-semibold text-white">
+                      Native Node.js HTTP Server
+                    </h4>
+
+                    <p className="mt-2 text-sm leading-6 text-gray-500">
+                      Built a raw HTTP server using Node.js native http module,
+                      implemented GET routes, JSON responses, strict HTTP
+                      headers, status codes, and a server health endpoint.
+                      Inspected HTTP requests using Postman.
+                    </p>
+                  </div>
+
+                  <div className="rounded-2xl border border-white/10 bg-black/10 p-5">
+                    <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-xl bg-yellow-400/10 text-yellow-400">
+                      <FiCpu size={19} />
+                    </div>
+
+                    <h4 className="font-semibold text-white">
+                      Fault-Tolerant Async Data Engine
+                    </h4>
+
+                    <p className="mt-2 text-sm leading-6 text-gray-500">
+                      Developed an asynchronous TypeScript data engine using
+                      Promise.allSettled() and native fetch to process multiple
+                      API requests concurrently, with strict domain interfaces,
+                      isolated errors, and graceful network failure handling.
+                    </p>
+                  </div>
+
+                  <div className="rounded-2xl border border-white/10 bg-black/10 p-5">
+                    <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-xl bg-yellow-400/10 text-yellow-400">
+                      <FiCode size={19} />
+                    </div>
+
+                    <h4 className="font-semibold text-white">
+                      Modular Express API & Observability
+                    </h4>
+
+                    <p className="mt-2 text-sm leading-6 text-gray-500">
+                      Designed modular REST APIs using Express.js and
+                      TypeScript, following Routes, Controllers, and Services
+                      architecture. Implemented custom middleware for request
+                      logging, execution-time monitoring, and API key
+                      protection.
+                    </p>
+                  </div>
+
+                  <div className="rounded-2xl border border-white/10 bg-black/10 p-5">
+                    <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-xl bg-yellow-400/10 text-yellow-400">
+                      <FiBriefcase size={19} />
+                    </div>
+
+                    <h4 className="font-semibold text-white">
+                      JWT Authentication & Security
+                    </h4>
+
+                    <p className="mt-2 text-sm leading-6 text-gray-500">
+                      Implemented secure authentication using bcrypt password
+                      hashing and JWT-based authorization. Developed
+                      authentication and role-based access control middleware,
+                      alongside security headers, CORS restrictions, and login
+                      rate limiting.
+                    </p>
+                  </div>
+
+                  <div className="rounded-2xl border border-white/10 bg-black/10 p-5 sm:col-span-2">
+                    <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-xl bg-yellow-400/10 text-yellow-400">
+                      <FiDatabase size={19} />
+                    </div>
+
+                    <h4 className="font-semibold text-white">
+                      PostgreSQL & Prisma ORM
+                    </h4>
+
+                    <p className="mt-2 text-sm leading-6 text-gray-500">
+                      Designed relational database schemas for an E-Commerce
+                      system using PostgreSQL and Prisma ORM. Implemented
+                      One-to-Many and Many-to-Many relationships, database
+                      migrations, type-safe queries, pagination, relational
+                      filtering, nested writes, and atomic transactions for
+                      checkout operations.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Key Contributions */}
+                <div className="mt-8">
+                  <h4 className="mb-5 text-sm font-semibold uppercase tracking-wider text-gray-300">
+                    Key Contributions
+                  </h4>
+
+                  <div className="space-y-4">
+                    {[
+                      'Built native Node.js HTTP servers and RESTful endpoints with proper request handling, JSON responses, and HTTP status codes.',
+                      'Developed fault-tolerant asynchronous API integrations using TypeScript, Promise.allSettled(), and strict type definitions.',
+                      'Applied modular backend architecture using Express.js, separating routes, controllers, services, and custom middleware.',
+                      'Implemented secure authentication and authorization using JWT, bcrypt, role-based access control, and API security middleware.',
+                      'Designed relational PostgreSQL database schemas and implemented type-safe database operations using Prisma ORM.',
+                      'Implemented database migrations, pagination, relational queries, nested writes, and transactional operations to maintain data integrity.',
+                    ].map((item, index) => (
+                      <div
+                        key={index}
+                        className="flex gap-3 text-sm leading-6 text-gray-400 sm:text-base"
+                      >
+                        <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-yellow-400" />
+                        <p>{item}</p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+
+                {/* Technologies */}
+                <div className="mt-8 border-t border-white/10 pt-7">
+                  <p className="mb-4 text-xs font-medium uppercase tracking-wider text-gray-500">
+                    Technologies
+                  </p>
+
+                  <div className="flex flex-wrap gap-2">
+                    {[
+                      'Node.js',
+                      'TypeScript',
+                      'Express.js',
+                      'PostgreSQL',
+                      'Prisma ORM',
+                      'REST APIs',
+                      'JWT',
+                      'bcrypt',
+                      'Helmet',
+                      'express-rate-limit',
+                      'Native Fetch',
+                      'Postman',
+                      'cURL',
+                      'HTTP',
+                    ].map((tech) => (
+                      <span
+                        key={tech}
+                        className="rounded-lg border border-white/10 bg-white/5 px-3 py-1.5 text-xs text-gray-300 transition hover:border-yellow-400/20 hover:text-yellow-400"
+                      >
+                        {tech}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Full Stack Developer Internship - VioletPro */}
+          <div className="relative mt-10 md:pl-16">
             <div className="absolute left-0 top-1 hidden h-10 w-10 items-center justify-center rounded-full border border-yellow-400/30 bg-[#080D1C] text-yellow-400 shadow-lg shadow-yellow-400/10 md:flex">
               <FiBriefcase size={18} />
             </div>
